@@ -2,7 +2,10 @@
   "name": "travlr",
   "version": "0.0.1",
   "description": "Travlr Getaways",
-  "author": {"name": "Philip Oriuwa", "email": "philip.oriuwa@snhu.edu"},
+  "author": {
+    "name": "Philip Oriuwa",
+    "email": "philip.oriuwa@snhu.edu"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -13,7 +16,13 @@
     "express": "~4.16.1",
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
+    "mongoose": "~5.9.2",
     "morgan": "~1.9.1",
-    "nodemon": "^3.0.3"
+    "nodemon": "^3.0.3",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {
+    "hbs": "^4.2.0",
+    "seedgoose": "^2.0.2"
   }
 }

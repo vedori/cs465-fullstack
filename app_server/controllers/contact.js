@@ -1,5 +1,5 @@
 const fs = require('fs');
-const contactData = JSON.parse(fs.readFileSync('./data/contact.json', 'utf8'));
+const contactData = JSON.parse(fs.readFileSync('./data/contacts.json', 'utf8'));
 
 /* GET contact view */
 const contact = (req, res) => {
